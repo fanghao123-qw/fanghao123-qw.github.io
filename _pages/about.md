@@ -84,6 +84,45 @@ about twice. </div>
   </div>
 </div>
 
+<div class='paper-box'>
+  <div class='paper-box-text'>
+    <div class='paper-box-image'>
+      <img src='../images/papers/tnnls.png' alt='UBG'>
+    </div>
+    <div class='paper-title'>UBG: An Unreal BattleGround Benchmark With Object-Aware Hierarchical Proximal Policy Optimization</div>
+    <div class='paper-authors'>L Niu, B Li, X Fan,<strong>Hao Fang</strong></div>
+    <div class='paper-venue'>TNNLS 2025</div>
+    <div class='paper-summary'>The deep reinforcement learning (DRL) has made
+significant progress in various simulation environments. However,
+applying DRL methods to real-world scenarios poses certain
+challenges due to limitations in visual fidelity, scene complexity,
+and task diversity within existing environments. To address
+limitations and explore the potential ability of DRL, we developed
+a 3-D open-world first-person shooter (FPS) game called Unreal
+BattleGround (UBG) using the unreal engine (UE). UBG provides
+a realistic 3-D environment with variable complexity, random
+scenes, diverse tasks, and multiple scene interaction methods.
+This benchmark involves far more complex state-action spaces
+than classic pseudo-3-D FPS games (e.g., ViZDoom), making it
+challenging for DRL to learn human-level decision sequences.
+Then, we propose the object-aware hierarchically proximal policy
+optimization (OaH-PPO) method in the UBG. It involves a
+two-level hierarchy, where the high-level controller is tasked
+with learning option control, and the low-level workers focus
+on mastering subtasks. To boost the learning of subtasks, we
+propose three modules: an object-aware module for extracting
+depth detection information from the environment, potentialbased intrinsic reward shaping for efficient exploration, and
+annealing imitation learning (IL) to guide the initialization.
+Experimental results have demonstrated the broad applicability
+of the UBG and the effectiveness of the OaH-PPO. We will release
+the code of the UBG and OaH-PPO after publication </div>
+    <div class='paper-links'>
+      <a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11007665'>Paper</a>
+      <a href='https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11007665'>Code</a>
+    </div>
+  </div>
+</div>
+
 # 🎖 Honors and Awards
 
 # 📖 Education
