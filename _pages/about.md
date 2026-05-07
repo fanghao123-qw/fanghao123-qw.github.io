@@ -52,6 +52,38 @@ For academic collaborations, please feel free to contact me via email.
   </div>
 </div>
 
+<div class='paper-box'>
+  <div class='paper-box-text'>
+    <div class='paper-box-image'>
+      <img src='../images/papers/icassp.png' alt='VL-FAS'>
+    </div>
+    <div class='paper-title'>Vl-fas: Domain generalization via vision-language model for face anti-spoofing</div>
+    <div class='paper-authors'><strong>Hao Fang</strong>, A Liu, A Liu, N Jiang, Q Lu, G Zhao, J Wan</div>
+    <div class='paper-venue'>icassp oral 2024</div>
+    <div class='paper-summary'>Recent approaches have demonstrated the effectiveness of
+Vision Transformer (ViT) with attention mechanisms for domain generalization of Face Anti-Spoofing (FAS). However,
+current attention algorithms highlight all the salient objects
+(e.g., background objects, hair, glasses), which results in the
+feature learned by the model containing face-irrelevant noisy
+information. Inspired by existing Vision-language works, we
+propose the VL-FAS to extract more generalized and cleaner
+discriminative features. Specifically, we leverage fine-grained
+natural language descriptions of the face region to act as a
+task-oriented teacher, directing the model’s attention towards
+the face region through top-down attention regulation. Furthermore, to enhance the domain generalization ability of the
+model, we propose a Sample-Level Vision-Text optimization
+module (SLVT). SLVT uses sample-level image-text pairs for
+contrastive learning, allowing the visual coder to comprehend
+the intrinsic semantics of each image sample, thereby reducing the dependence on domain information. Extensive experiments show that our approach significantly outperforms the
+state-of-the-art and improves the performance of the ViT by
+about twice. </div>
+    <div class='paper-links'>
+      <a href='http://www.cbsr.ia.ac.cn/users/jwan/papers/ICASSP24.pdf'>Paper</a>
+      <a href='http://www.cbsr.ia.ac.cn/users/jwan/papers/ICASSP24.pdf'>Code</a>
+    </div>
+  </div>
+</div>
+
 # 🎖 Honors and Awards
 
 # 📖 Education
