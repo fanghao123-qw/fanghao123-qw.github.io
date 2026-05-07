@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Hao Fang, a Master's graduate from the Institute of Automation, Chinese Academy of Sciences (CASIA), where I was supervised by Prof. Jun Wan and [Prof. Ziqiang Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ&hl=zh-CN) (IEEE Fellow).
+I am Hao Fang, a Master's graduate from the Institute of Automation, Chinese Academy of Sciences (CASIA), where I was supervised by [Prof. Wan Jun](https://scholar.google.com/citations?user=bSbc7FQAAAAJ&hl=zh-CN) (IEEE Fellow). and [Prof. Stan Z. Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ&hl=zh-CN) (IEEE Fellow).
 
 My research interests include computer vision and multimodal large language models. Previously, I served as a Multimodal LLM Engineer Intern at Alibaba's AMAP (Gaode Maps). Currently, I work as an Advertising LLM Engineer at Meituan.
 
@@ -39,15 +39,15 @@ For academic collaborations, please feel free to contact me via email.
 <div class='paper-box'>
   <div class='paper-box-text'>
     <div class='paper-box-image'>
-      <img src='../images/papers/ReRec.png' alt='ReRec publication teaser'>
+      <img src='../images/papers/uni.png' alt='UniAttack publication'>
     </div>
-    <div class='paper-title'>ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning</div>
-    <div class='paper-authors'><strong>Jiani Huang</strong>, Shijie Wang, Liangbo Ning, Wenqi Fan, Qing Li</div>
-    <div class='paper-venue'>ACL 2026</div>
-    <div class='paper-summary'>With the rise of LLMs, there is an increasing need for intelligent recommendation assistants that can handle complex queries and provide personalized, reasoning-driven recommendations. LLM-based recommenders show potential but face challenges in multi-step reasoning, underscoring the need for reasoning-augmented systems. To address this gap, we propose ReRec, a novel reinforcement fine-tuning (RFT) framework designed to improve LLM reasoning in complex recommendation tasks. Our framework introduces three key components: (1) Dual-Graph Enhanced Reward Shaping, integrating recommendation metrics like NDCG@K with Query Alignment and Preference Alignment Scores to provide fine-grained reward signals for LLM optimization; (2) Reasoning-aware Advantage Estimation, which decomposes LLM outputs into reasoning segments and penalizes incorrect steps to enhance reasoning of recommendation; and (3) Online Curriculum Scheduler, dynamically assess query difficulty and organize training curriculum to ensure stable learning during RFT. Experiments demonstrate that ReRec outperforms state-of-the-art baselines and preserves core abilities like instruction-following and general knowledge. </div>
+    <div class='paper-title'>Unified physical-digital face attack detection</div>
+    <div class='paper-authors'><strong>Hao Fang</strong>, A Liu, H Yuan, J Zheng, D Zeng, Y Liu, J Deng, S Escalerai</div>
+    <div class='paper-venue'>IJCAI 2024</div>
+    <div class='paper-summary'>Face Recognition (FR) systems can suffer from physical (i.e., print photo) and digital (i.e., DeepFake) attacks. However, previous related work rarely considers both situations at the same time. This implies the deployment of multiple models and thus more computational burden. The main reasons for this lack of an integrated model are caused by two factors: (1) The lack of a dataset including both physical and digital attacks with ID consistency which means the same ID covers the real face and all attack types; (2) Given the large intra-class variance between these two attacks, it is difficult to learn a compact feature space to detect both attacks simultaneously. To address these issues, we collect a Unified physical-digital Attack dataset, called UniAttackData. The dataset consists of  participations of 2 and 12 physical and digital attacks, respectively, resulting in a total of 29,706 videos. Then, we propose a Unified Attack Detection framework based on Vision-Language Models (VLMs), namely UniAttackDetection, which includes three main modules: the Teacher-Student Prompts (TSP) module, focused on acquiring unified and specific knowledge respectively; the Unified Knowledge Mining (UKM) module, designed to capture a comprehensive feature space; and the Sample-Level Prompt Interaction (SLPI) module, aimed at grasping sample-level semantics. These three modules seamlessly form a robust unified attack detection framework. Extensive experiments on UniAttackData and three other datasets demonstrate the superiority of our approach for unified face attack detection. </div>
     <div class='paper-links'>
-      <a href='https://arxiv.org/abs/2604.07851'>Paper</a>
-      <a href='https://github.com/jiani-huang/ReRec'>Code</a>
+      <a href='https://arxiv.org/abs/2401.17699'>Paper</a>
+      <a href='https://arxiv.org/abs/2401.17699'>Code</a>
     </div>
   </div>
 </div>
@@ -56,7 +56,7 @@ For academic collaborations, please feel free to contact me via email.
 
 # 📖 Education
 
-- *2021.09 - 2024.06*, Master's, Institute of Automation, Chinese Academy of Sciences (CASIA), Supervisors: Prof. Jun Wan, [Prof. Ziqiang Li](https://scholar.google.com/citations?user=Y-nyLGIAAAAJ&hl=zh-CN) (IEEE Fellow).
+
 
 # 💻 Working Experience
 
