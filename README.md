@@ -11,7 +11,7 @@ AcadHomepage
 [![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
 </div>
 
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
+<p align="center">现代化、响应式的学术个人主页模板</p>
 
 <p align="center">
     <br>
@@ -19,54 +19,55 @@ AcadHomepage
     <br>
 </p>
 
-Some examples:
-- [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
-- [Personal Homepage of the author](https://rayeren.github.io/)
+部分示例：
+- [演示页面](https://rayeren.github.io/acad-homepage.github.io/)
+- [作者的个人主页](https://rayeren.github.io/)
 
-## Key Features
-- **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
-- **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
-- **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
-- **Beautiful and Simple Design**: this homepage is beautiful and simple, which is very suitable for academic personal homepage.
-- **SEO**: search Engine Optimization (SEO) helps search engines find the information you publish on your homepage easily, then rank it against similar websites.
+## 核心特性
 
-## Quick Start
+- **自动更新 Google Scholar 引用**：利用 Google Scholar 爬虫和 GitHub Actions，本项目可以自动更新作者的引用次数和发表论文的引用数据。
+- **支持 Google Analytics**：通过简单的配置即可追踪您主页的访问流量。
+- **响应式设计**：主页会自动适配不同的屏幕尺寸和视口。
+- **美观简洁的设计**：主页设计美观简洁，非常适合作为学术个人主页。
+- **SEO 优化**：搜索引擎优化（SEO）帮助搜索引擎轻松找到您发布在主页上的信息，并在同类网站中进行排名。
 
-1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
-1. Configure the google scholar citation crawler:
-    1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.
-    1. Set GOOGLE_SCHOLAR_ID variable to your google scholar ID in `Settings -> Secrets -> Actions -> New repository secret` of the REPO website with `name=GOOGLE_SCHOLAR_ID` and `value=SCHOLAR_ID`.
-    1. Click the `Action` of the REPO website and enable the workflows by clicking *"I understand my workflows, go ahead and enable them"*. This github action will generate google scholar citation stats data `gs_data.json` in `google-scholar-stats` branch of your REPO. When you update your main branch, this action will be triggered. This action will also be trigger 08:00 UTC everyday.
-1. Generate favicon using [favicon-generator](https://redketchup.io/favicon-generator) and download all generated files to `REPO/images`.
-1. Modify the configuration of your homepage `_config.yml`:
-    1. `title`: the title of your homepage
-    1. `description`: the description of your homepage
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (optional): google analytics ID
-    1. SEO Related keys (optional): get these keys from search engine consoles (e.g. Google, Bing and Baidu) and paste here.
-    1. `author`: the author information of this homepage, including some other websites, emails, city and univeristy.
-    1. More configuration details are described in the comments.
-1. Add your homepage content in `_pages/about.md`.
-    1. You can use html+markdown syntax just same as jekyll.
-    1. You can use a `<span>` tag with class `show_paper_citations` and attribute `data` to display the citations of your paper. Set the data to the google scholar paper ID. For
+## 快速开始
+
+1. Fork 本仓库并重命名为 `USERNAME.github.io`，其中 `USERNAME` 是您的 GitHub 用户名。
+1. 配置 Google Scholar 引用爬虫：
+    1. 在您的 Google Scholar 页面 URL 中找到您的 Google Scholar ID（例如：https://scholar.google.com/citations?user=SCHOLAR_ID），其中 `SCHOLAR_ID` 就是您的 Google Scholar ID。
+    1. 在仓库的 `Settings -> Secrets -> Actions -> New repository secret` 中设置 `GOOGLE_SCHOLAR_ID` 变量，其中 `name=GOOGLE_SCHOLAR_ID`，`value=SCHOLAR_ID`。
+    1. 点击仓库的 `Actions`，然后点击 *"I understand my workflows, go ahead and enable them"* 启用工作流。GitHub Actions 会在仓库的 `google-scholar-stats` 分支生成 Google Scholar 引用统计数据 `gs_data.json`。当您更新 main 分支时，此操作会被触发。此外，该操作还会在每天 UTC 时间 08:00 自动执行。
+1. 使用 [favicon-generator](https://redketchup.io/favicon-generator) 生成网站图标，并将所有生成的文件下载到 `仓库/images` 目录。
+1. 修改主页配置文件 `_config.yml`：
+    1. `title`：主页标题
+    1. `description`：主页描述
+    1. `repository`：USER_NAME/REPO_NAME  
+    1. `google_analytics_id`（可选）：Google Analytics ID
+    1. SEO 相关配置（可选）：从搜索引擎控制台（如 Google、Bing 和百度）获取这些密钥并粘贴到此处。
+    1. `author`：主页作者信息，包括其他网站链接、邮箱、城市和大学等。
+    1. 更多配置详情请参阅文件中的注释。
+1. 在 `_pages/about.md` 中添加您的主页内容。
+    1. 您可以使用与 Jekyll 相同的 HTML+Markdown 语法。
+    1. 您可以使用带有 `show_paper_citations` 类名和 `data` 属性的 `<span>` 标签来显示论文的引用次数。将 data 属性设置为 Google Scholar 论文 ID，例如：
         ```html
         <span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
         ``` 
-        > Q: How to get the google scholar paper ID?   
-        > A: Enter your google scholar homepage and click the paper name. Then you can see the paper ID from `citation_for_view=XXXX`, where `XXXX` is the required paper ID.
-1. Your page will be published at `https://USERNAME.github.io`.
+        > 问：如何获取 Google Scholar 论文 ID？   
+        > 答：进入您的 Google Scholar 首页，点击论文名称。然后您可以从 `citation_for_view=XXXX` 中看到论文 ID，其中 `XXXX` 就是所需的论文 ID。
+1. 您的主页将发布在 `https://USERNAME.github.io`。
 
-## Debug Locally
+## 本地调试
 
-1. Clone your REPO to local using `git clone`.
-1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
-1. Run `bash run_server.sh` to start Jekyll livereload server.
-1. Open http://127.0.0.1:4000 in your browser.
-1. If you change the source code of the website, the livereload server will automatically refresh.
-1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
+1. 使用 `git clone` 将仓库克隆到本地。
+1. 按照 [安装指南](https://jekyllrb.com/docs/installation/#requirements) 安装 Jekyll 构建环境，包括 `Ruby`、`RubyGems`、`GCC` 和 `Make`。
+1. 运行 `bash run_server.sh` 启动 Jekyll 热重载服务器。
+1. 在浏览器中打开 http://127.0.0.1:4000。
+1. 如果您修改了网站的源代码，热重载服务器会自动刷新页面。
+1. 完成主页修改后，使用 `git` 命令 `commit` 更改并 `push` 到远程仓库。
 
-# Acknowledges
+## 致谢
 
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+- AcadHomepage 使用了 Font Awesome，遵循 SIL OFL 1.1 和 MIT License 协议。
+- AcadHomepage 参考了 GitHub 仓库 [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)，遵循 MIT License 协议。
+- AcadHomepage 参考了 GitHub 仓库 [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io)，遵循 MIT License 协议。
