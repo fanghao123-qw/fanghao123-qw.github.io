@@ -17,17 +17,22 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Hao Fang, a Master's graduate from the Institute of Automation, Chinese Academy of Sciences (CASIA). My mentors are Prof. Jun Wan and Prof. Ziqiang Li.
+I am Hao Fang, a Master's graduate from the Institute of Automation, Chinese Academy of Sciences (CASIA), where I was supervised by Prof. Jun Wan and Prof. Stanz.Li.
 
-My research interests include computer vision and multimodal large language models. Previously, I worked as a Multimodal LLM Engineer Intern at Alibaba's AMAP (Gaode Maps). Currently, I am working as an Advertising LLM Engineer at Meituan.
+My research interests include computer vision and multimodal large language models. Previously, I served as a Multimodal LLM Engineer Intern at Alibaba's AMAP (Gaode Maps). Currently, I work as an Advertising LLM Engineer at Meituan.
 
-Feel free to contact me via email if you are interested in academic collaborations.
+For academic collaborations, please feel free to contact me via email.
 
 # 🔥 News
 
-- *2026.04*: &nbsp;🎉🎉 Personal homepage is now online!
-- *2024.03*: &nbsp;Joined Meituan as an Advertising LLM Engineer.
-- *2023.06*: &nbsp;Joined Alibaba AMAP as a Multimodal LLM Engineer Intern.
+- *2026.01*:  UniAttack: Unified Physical-Digital Face Attack Detection, *International Journal of Computer Vision* (IJCV)
+- *2026.01*:  HySpeFAS: A Hyperspectral Face Anti-Spoofing Dataset Based on Snapshot Compressive Imaging, *IEEE Transactions on Information Forensics and Security* (TIFS)
+- *2025.01*:  UBG: An Unreal BattleGround Benchmark With Object-Aware Hierarchical Proximal Policy Optimization, *IEEE Transactions on Neural Networks and Learning Systems* (TNNLS)
+- *2024.01*:  Unified Physical-Digital Face Attack Detection, *arXiv preprint arXiv:2401.17699*
+- *2024.01*:  VL-FAS: Domain Generalization via Vision-Language Model for Face Anti-Spoofing, *IEEE International Conference on Acoustics, Speech and Signal Processing* (ICASSP)
+- *2023.01*:  Surveillance Face Anti-Spoofing, *IEEE Transactions on Information Forensics and Security* (TIFS), 19, 1535-1546
+- *2023.01*:  Surveillance Face Presentation Attack Detection Challenge, *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops* (CVPRW)
+- *2023.01*:  Bandpass Filter Based Dual-Stream Network for Face Anti-Spoofing, *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition* (CVPR)
 
 # 📝 Publications
 
