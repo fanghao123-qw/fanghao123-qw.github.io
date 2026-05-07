@@ -25,14 +25,14 @@ For academic collaborations, please feel free to contact me via email.
 
 # 🔥 News
 
-- *2026*: &nbsp; UniAttack: Unified Physical-Digital Face Attack Detection, *International Journal of Computer Vision* (**IJCV**).
-- *2026*: &nbsp; HySpeFAS: A Hyperspectral Face Anti-Spoofing Dataset Based on Snapshot Compressive Imaging, *IEEE Transactions on Information Forensics and Security* (**TIFS**).
-- *2025*: &nbsp; UBG: An Unreal BattleGround Benchmark With Object-Aware Hierarchical Proximal Policy Optimization, *IEEE Transactions on Neural Networks and Learning Systems* (**TNNLS**).
-- *2024*: &nbsp; Unified Physical-Digital Face Attack Detection (**IJCAI**).
-- *2024*: &nbsp; VL-FAS: Domain Generalization via Vision-Language Model for Face Anti-Spoofing, *IEEE International Conference on Acoustics, Speech and Signal Processing* (**ICASSP**).
-- *2023*: &nbsp; Surveillance Face Anti-Spoofing, *IEEE Transactions on Information Forensics and Security* (**TIFS**).
+- *2026*: &nbsp; UniAttack: Unified Physical-Digital Face Attack Detection, *International Journal of Computer Vision* (**IJCV,CCF-A**).
+- *2026*: &nbsp; HySpeFAS: A Hyperspectral Face Anti-Spoofing Dataset Based on Snapshot Compressive Imaging, *IEEE Transactions on Information Forensics and Security* (**TIFS,CCF-A/SCI一区**).
+- *2025*: &nbsp; UBG: An Unreal BattleGround Benchmark With Object-Aware Hierarchical Proximal Policy Optimization, *IEEE Transactions on Neural Networks and Learning Systems* (**TNNLS,SCI一区**).
+- *2024*: &nbsp; Unified Physical-Digital Face Attack Detection (**IJCAI,CCF-A**).
+- *2024*: &nbsp; VL-FAS: Domain Generalization via Vision-Language Model for Face Anti-Spoofing, *IEEE International Conference on Acoustics, Speech and Signal Processing* (**ICASSP,CCF-B,ORAL**).
+- *2023*: &nbsp; Surveillance Face Anti-Spoofing, *IEEE Transactions on Information Forensics and Security* (**TIFS,CCF-A/SCI一区**).
 - *2023*: &nbsp; Surveillance Face Presentation Attack Detection Challenge, *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops* (**CVPRW**).
-- *2023*: &nbsp; Bandpass Filter Based Dual-Stream Network for Face Anti-Spoofing, *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition* (**CVPR**).
+- *2023*: &nbsp; Bandpass Filter Based Dual-Stream Network for Face Anti-Spoofing, *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition* (**CVPRW**).
 
 # 📝 Publications
 
