@@ -17,18 +17,43 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-我叫方好，是中国科学院大学自动化研究所的硕士毕业生。我的导师是研究院万军和研究员李子青。
+I am Hao Fang, a Master's graduate from the Institute of Automation, Chinese Academy of Sciences (CASIA). My mentors are Prof. Jun Wan and Prof. Ziqiang Li.
 
-我的研究方向包括计算机视觉和多模态大模型。如果您对我们的研究感兴趣，欢迎通过邮箱与我联系进行学术合作。
+My research interests include computer vision and multimodal large language models. Previously, I worked as a Multimodal LLM Engineer Intern at Alibaba's AMAP (Gaode Maps). Currently, I am working as an Advertising LLM Engineer at Meituan.
 
-# 🔥 最新动态
-- *2026.05*: &nbsp;🎉🎉 个人主页正式上线！
+Feel free to contact me via email if you are interested in academic collaborations.
 
-# 📝 发表论文
+# 🔥 News
 
-# 🎖 荣誉与奖项
+- *2026.04*: &nbsp;🎉🎉 Personal homepage is now online!
+- *2024.03*: &nbsp;Joined Meituan as an Advertising LLM Engineer.
+- *2023.06*: &nbsp;Joined Alibaba AMAP as a Multimodal LLM Engineer Intern.
 
-# 📖 教育背景
-- *XXXX.XX - XXXX.XX*, 硕士，中国科学院大学自动化研究所，导师：万军、李子青
+# 📝 Publications
 
-# 💻 实习经历
+- [Surveillance Face Anti-Spoofing](https://ieeexplore.ieee.org/document/1535-1546), **H Fang**, A Liu, J Wan, S Escalera, C Zhao, X Zhang, SZ Li, Z Lei, *IEEE Transactions on Information Forensics and Security* (**TIFS**), 19, 1535-1546, 2023.
+
+- [Unified Physical-Digital Face Attack Detection](https://arxiv.org/abs/2401.17699), **H Fang**, A Liu, H Yuan, J Zheng, D Zeng, Y Liu, J Deng, S Escalera, X Liu, ..., *arXiv preprint arXiv:2401.17699*, 2024.
+
+- [VL-FAS: Domain Generalization via Vision-Language Model for Face Anti-Spoofing](https://ieeexplore.ieee.org/document/10428838), **H Fang**, A Liu, N Jiang, Q Lu, G Zhao, J Wan, *IEEE International Conference on Acoustics, Speech and Signal Processing* (**ICASSP**), 2024.
+
+- [Surveillance Face Presentation Attack Detection Challenge](https://openaccess.thecvf.com/content/cvfdl2023/papers/Fang_Surveillance_Face_Presentation_Attack_Detection_Challenge_CVPR_Workshops_2023_paper.pdf), **H Fang**, A Liu, J Wan, S Escalera, HJ Escalante, Z Lei, *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops* (**CVPRW**), 2023.
+
+- [Bandpass Filter Based Dual-Stream Network for Face Anti-Spoofing](https://openaccess.thecvf.com/content/cvpr2023/papers/Zeng_Bandpass_Filter_Based_Dual-Stream_Network_for_Face_Anti-Spoofing_CVPR_2023_paper.pdf), D Zeng, L Gao, **H Fang**, G Xiang, Y Feng, Q Lu, *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition* (**CVPR**), 2023.
+
+- [UniAttack: Unified Physical-Digital Face Attack Detection](https://link.springer.com/article/10.1007/s11263-025-02001-0), S Chen, A Liu, **H Fang**, H Yuan, J Zheng, D Zeng, Y Liu, J Deng, ..., *International Journal of Computer Vision* (**IJCV**), 2026.
+
+- [HySpeFAS: A Hyperspectral Face Anti-Spoofing Dataset Based on Snapshot Compressive Imaging](https://ieeexplore.ieee.org/document/10669798), S Rao, Y Huang, X Zhang, **H Fang**, A Liu, J Wan, K Cui, Y Li, *IEEE Transactions on Information Forensics and Security* (**TIFS**), 2026.
+
+- [UBG: An Unreal BattleGround Benchmark With Object-Aware Hierarchical Proximal Policy Optimization](https://ieeexplore.ieee.org/document/10669798), L Niu, B Li, X Fan, **H Fang**, J Li, J Xing, J Wan, Z Lei, *IEEE Transactions on Neural Networks and Learning Systems* (**TNNLS**), 2025.
+
+# 🎖 Honors and Awards
+
+# 📖 Education
+
+- *2021.09 - 2024.06*, Master's, Institute of Automation, Chinese Academy of Sciences (CASIA), Supervisors: Prof. Jun Wan, Prof. Ziqiang Li.
+
+# 💻 Working Experience
+
+- *2024.04 - Present*, Advertising LLM Engineer, Meituan.
+- *2023.06 - 2024.03*, Multimodal LLM Engineer Intern, Alibaba AMAP (Gaode Maps).
