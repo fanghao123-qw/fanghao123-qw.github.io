@@ -23,6 +23,11 @@ My research interests include computer vision and multimodal large language mode
 
 For academic collaborations, please feel free to contact me via email.
 
+# 💻 Working Experience
+
+- *2024.07 - Present*, Advertising LLM Engineer, Meituan.
+- *2023.06 - 2024.03*, Multimodal LLM Engineer Intern, Alibaba AMAP (Gaode Maps).
+
 # 🔥 News
 
 - *2026*: &nbsp; UniAttack: Unified Physical-Digital Face Attack Detection, *International Journal of Computer Vision* (**IJCV,CCF-A**).
@@ -92,7 +97,4 @@ For academic collaborations, please feel free to contact me via email.
 
 
 
-# 💻 Working Experience
 
-- *2024.07 - Present*, 大模型广告算法工程师, 美团.
-- *2023.06 - 2024.03*, 多模态大模型算法工程师, 阿里巴巴 - 高德地图.
